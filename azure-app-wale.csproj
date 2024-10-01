@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_wale</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/c200cbc6-d954-4e04-8b5d-bf98212b77e6/resourceGroups/az-course-rg/providers/microsoft.insights/components/azure-app-wale</ApplicationInsightsResourceId>
+    <UserSecretsId>7da77d1a-a86e-49ca-bd8b-0ac1cd5a8375</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
